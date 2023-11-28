@@ -1,0 +1,43 @@
+.balls {
+    position: absolute;
+    z-index: -1;
+}
+
+.purple_ball {
+    width: 60px;
+    height: 60px;
+    left: 868px;
+    top: -2px;
+}
+
+.red_ball_big {
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+}
+
+.red_ball {
+    width: 28px;
+    height: 28px;
+    left: 851px;
+    top: 547px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .purple_ball {
+        left: 280px;
+        top: 300px;
+    }
+
+    .red_ball {
+        display: none;
+    }
+
+    .red_ball_big {
+        top: 430px;
+        left: 50px;
+    }
+
+}

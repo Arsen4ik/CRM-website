@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+
+    .informations {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .information3>p {
+        text-align: start;
+    }
+
+    .information>p {
+        font-size: 14px;
+    }
+
+    .information>p:first-child {
+        font-size: 12px;
+        letter-spacing: 0.6px;
+    }
+
+    .information3>div {
+        justify-content: start;
+        margin: auto;
+    }
+
+    .information3>div>img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .information3>p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    footer>div>p {
+        text-align: start;
+    }
+}

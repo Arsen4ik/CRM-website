@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colorful-text-gradient {
+    width: fit-content;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(255, 140, 0), rgb(255, 0, 102));
+}
+
+.left>p {
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.left>.colorful-text-gradient {
+    font-weight: 900;
+    /* background-color: aliceblue; */
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+.right>h2 {
+    margin: 0;
+}
+
+.right>h2,
+h3,
+p {
+    text-align: end;
+}
+
+.presents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    box-sizing: border-box;
+
+}
+
+.presents h3 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.presents p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right button {
+    width: 262px;
+    height: 61px;
+    background-color: #4077F3;
+    border: none;
+    color: white;
+    margin: 0 auto;
+}

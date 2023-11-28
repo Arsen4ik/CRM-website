@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        width: 320px;
+        height: 445px;
+        justify-content: space-evenly;
+    }
+
+    .left>h1 {
+        font-size: 36px;
+    }
+
+    .right>h2 {
+        font-size: 18px;
+    }
+
+    .right h2,
+    h3 {
+        text-align: start;
+    }
+
+    .presents p {
+        display: none;
+    }
+
+    .presents h3 {
+        font-size: 13px;
+    }
+
+    .presents div {
+        padding-left: 15px;
+    }
+
+    .presents h3::before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 1px;
+        background-image: linear-gradient(to right, rgb(255, 140, 0), rgb(255, 0, 102));
+        position: relative;
+        top: 8px;
+        right: 15px;
+    }
+
+    .right {
+        width: 272px
+    }
+
+    .right button {
+        display: none;
+    }
+}
