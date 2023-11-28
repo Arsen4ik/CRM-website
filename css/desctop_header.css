@@ -11,6 +11,7 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 nav a {
